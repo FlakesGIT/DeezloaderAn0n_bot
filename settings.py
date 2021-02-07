@@ -14,8 +14,8 @@ telegram_audio_api_limit = 50000000
 db_file = "dwsongs.db"
 loc_dir = "Songs/"
 ini_file = "settings.ini"
-photo = "example.png"
-bot_name = "DeezloaderAn0n_bot"
+photo = "https://telegra.ph/file/24eb3672012c108483bac.jpg"
+bot_name = "DeezerFlixBot"
 api_chart = "https://api.deezer.com/chart"
 api_artist = "https://api.deezer.com/artist/%s"
 api_type1 = "https://api.deezer.com/search/{}/?q={}"
@@ -23,7 +23,7 @@ api_type2 = "https://api.deezer.com/search/?q={}:\"{}\""
 song_default_image = "https://e-cdns-images.dzcdn.net/images/cover/1800x1800-000000-80-0-0.jpg"
 services_supported = ["spotify", "deezer"]
 comandss = ["start", "settings", "info", "shazam", "help"]
-settingss = ["zips", "tracks", "quality", "tongue"]
+settingss = ["quality", "tongue"]
 qualities = ["FLAC", "MP3_320", "MP3_256", "MP3_128"]
 send_image_track_query = "🎧 Track: %s \n👤 Artist: %s \n💽 Album: %s \n📅 Date: %s"
 send_image_album_query = "💽 Album: %s \n👤 Artist: %s \n📅 Date: %s \n🎧 Tracks amount: %d"
@@ -37,8 +37,8 @@ user_exist = "SELECT chat_id FROM CHAT_ID where chat_id = '%d'"
 share_message = "tg://msg?text=Start @%s for download all the songs which you want ;)" % bot_name
 start_message = "Welcome to @%s \nPress '/' to get commands list" % bot_name
 not_supported_links = "Sorry :( The bot doesn't support this link %s :("
-rate_link = "https://t.me/BotsArchive/298"
-end_message = "FINISHED :) Rate me here %s" % rate_link
+rate_link = "https://t.me/FlixBots"
+end_message = "FINISHED :) Join Our Channel For Updates %s" % rate_link
 
 help_message = (
 	"/start: Start the bot" +
@@ -52,7 +52,7 @@ help_message = (
 end_keyboard = [
 	[
 		InlineKeyboardButton(
-			"SHARE",
+			"🍀 SHARE THIS BOT 🍀",
 			url = share_message
 		)
 	]
@@ -76,8 +76,8 @@ qualities_keyboard = [
 first_time_keyboard = [
 	[
 		InlineKeyboardButton(
-			"✅",
-			url = "t.me/%s?start" % bot_name
+			"🎶 𝗝𝗢𝗜𝗡 𝗙𝗟𝗜𝗫 𝗕𝗢𝗧𝗦 🎶",
+			url = "t.me/flixbots"
 		)
 	]
 ]
