@@ -41,12 +41,7 @@ rate_link = "https://t.me/FlixBots"
 end_message = "FINISHED :) Join Our Channel For Updates %s" % rate_link
 
 help_message = (
-	"/start: Start the bot" +
-	"\n\n/settings: Manage settings" +
-	"\n\n/shazam: Identify a song by a voice or audio message (You can do without calling this command, just send the media)" +
-	"\n\n/help: Show this message" +
-	"\n\n" +
-	"Just send a spotify or deezer link to download, or type what you are looking for"
+	 "WELCOME TO DEEZER FLIX BOT 🥳\n\nHere's a list of commands I can use -\n/start - Start the bot\n/settings - Manage settings\n/shazam - Identify from Audio\n/help - Show this message\n/info - Show Info\n\nYou may do any of the following while talking to me -\n• Send a Spotify or Deezer Link\n• Type the name of the song directly\n• Use an inline command to search\n• Send an Audio file\n\nSubscribe To @FlixBots If You ❤️ This Bot"
 )
 
 end_keyboard = [
