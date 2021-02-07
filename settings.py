@@ -26,11 +26,11 @@ comandss = ["start", "settings", "info", "shazam", "help"]
 settingss = ["quality", "tongue"]
 qualities = ["FLAC", "MP3_320", "MP3_256", "MP3_128"]
 send_image_track_query = "🎧 Track: %s \n👤 Artist: %s \n💽 Album: %s \n📅 Date: %s"
-send_image_album_query = "💽 Album: %s \n👤 Artist: %s \n📅 Date: %s \n🎧 Tracks amount: %d"
-send_image_artist_query = "👤 Artist: %s \n💽 Album numbers: %d \n👥 Fans on Deezer: %d"
+send_image_album_query = "💽 Album: %s \n👤 Artist: %s \n📅 Date: %s \n🎧 Tracks Amount: %d"
+send_image_artist_query = "👤 Artist: %s \n💽 Album Numbers: %d \n👥 Fans On Deezer: %d"
 tags_query = "💽 Album: %s\n📅 Date: %s\n📀 Label: %s\n🎵 Genre: %s"
 info_msg = "🔺 Version: %s\n🔻 Bot Name: @%s\n🤖 Support Bot: @%s\n📢 Support Channel: %s\n🧕 Created By: %s\n👥 Total Users: %d\n⬇️ Total Downloads: %d"
-send_image_playlist_query = "📅 Creation: %s \n👤 User: %s \n🎧 Tracks amount: %d"
+send_image_playlist_query = "📅 Creation: %s \n👤 User: %s \n🎧 Tracks Amount: %d"
 insert_query = "INSERT INTO DWSONGS (id, query, quality) values ('%s', '%s', '%s')"
 where_query = "SELECT query FROM DWSONGS WHERE id = '{}' and quality = '{}'"
 user_exist = "SELECT chat_id FROM CHAT_ID where chat_id = '%d'"
