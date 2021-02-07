@@ -38,7 +38,7 @@ share_message = "tg://msg?text=Start @%s for download all the songs which you wa
 start_message = "Welcome to @%s \nPress '/' to get commands list" % bot_name
 not_supported_links = "Sorry :( The bot doesn't support this link %s :("
 rate_link = "https://t.me/FlixBots"
-end_message = "FINISHED :) Join Our Channel For Updates %s" % rate_link
+end_message = "FINISHED :) Join Our Channel For Updates ☛︎ @FLIXBOTS" % rate_link
 
 help_message = (
 	 "WELCOME TO DEEZER FLIX BOT 🥳\n\nHere's a list of commands I can use -\n/start - Start the bot\n/settings - Manage settings\n/shazam - Identify from Audio\n/help - Show this message\n/info - Show Info\n\nYou may do any of the following while talking to me -\n• Send a Spotify or Deezer Link\n• Type the name of the song directly\n• Use an inline command to search\n• Send an Audio file\n\nSubscribe To @FlixBots If You ❤️ This Bot"
