@@ -19,7 +19,7 @@ api_chart = "https://api.deezer.com/chart"
 api_artist = "https://api.deezer.com/artist/%s"
 api_type1 = "https://api.deezer.com/search/{}/?q={}"
 api_type2 = "https://api.deezer.com/search/?q={}:\"{}\""
-song_default_image = "https://e-cdns-images.dzcdn.net/images/cover/1000x1000-000000-80-0-0.jpg"
+song_default_image = "https://e-cdns-images.dzcdn.net/images/cover/1800x1800-000000-80-0-0.jpg"
 services_supported = ["spotify", "deezer"]
 comandss = ["start", "settings", "info", "shazam", "help"]
 settingss = ["quality", "tongue"]
