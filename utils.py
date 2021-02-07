@@ -162,8 +162,8 @@ def initialize():
 
 def generate_token():
 	return oauth2.SpotifyClientCredentials(
-		client_id = "c6b23f1e91f84b6a9361de16aba0ae17",
-		client_secret = "237e355acaa24636abc79f1a089e6204"
+		client_id = "4e07ff70f566499fa39d5f1b35b3e909",
+		client_secret = "165ee510b14943cbbad2c425fed91915"
 	).get_access_token()
 
 def fast_split(thing):
