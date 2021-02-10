@@ -1432,7 +1432,7 @@ def menu(update, context):
 
 	if text == "/start":
 		sendPhoto(
-			chat_id, open(photo, "rb"),
+			chat_id, open(photo, "https://i.pinimg.com/originals/e3/39/35/e339352ea8faf949945369a35493a413.png"),
 			start_message
 		)
 
