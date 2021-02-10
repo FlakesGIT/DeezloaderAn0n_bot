@@ -1437,42 +1437,41 @@ def menu(update, context):
 		)
 
 		keyboard = [
-			[
-				InlineKeyboardButton(
-					queries['s_art']['text'],
-					switch_inline_query_current_chat = queries['s_art']['query'] % ""
-				),
-				InlineKeyboardButton(
-					queries['s_alb']['text'],
-					switch_inline_query_current_chat = queries['s_alb']['query'] % ""
-				)
-			],
-			[
-				InlineKeyboardButton(
-					queries['s_pla']['text'],
-					switch_inline_query_current_chat = queries['s_pla']['query'] % ""
-				),
-				InlineKeyboardButton(
-						queries['s_lbl']['text'],
-						switch_inline_query_current_chat = queries['s_lbl']['query'] % ""
-				)
-			],
-			[
-				InlineKeyboardButton(
-					queries['s_trk']['text'],
-					switch_inline_query_current_chat = queries['s_trk']['query'] % ""
-				),
-				InlineKeyboardButton(
-					queries['s_']['text'],
-					switch_inline_query_current_chat = queries['s_']['query'] % ".chart."
-				)
-			],
-		]
+				[
+					InlineKeyboardButton(
+						queries['s_art']['text'],
+						switch_inline_query_current_chat = queries['s_art']['query'] % text
+					),
+					InlineKeyboardButton(
+						queries['s_alb']['text'],
+						switch_inline_query_current_chat = queries['s_alb']['query'] % text
+					)
+				],
+				[
+					InlineKeyboardButton(
+						queries['s_pla']['text'],
+						switch_inline_query_current_chat = queries['s_pla']['query'] % text
+					),
+					InlineKeyboardButton(
+							queries['s_lbl']['text'],
+							switch_inline_query_current_chat = queries['s_lbl']['query'] % text
+					)
+				],
+				[
+					InlineKeyboardButton(
+						queries['s_trk']['text'],
+						switch_inline_query_current_chat = queries['s_trk']['query'] % text
+					),
+					InlineKeyboardButton(
+						queries['s_']['text'],
+						switch_inline_query_current_chat = queries['s_']['query'] % text
+					)
+				],
+			]
 
-		sendMessage(
-			chat_id, "Choose what you prefer",
-			reply_markup = InlineKeyboardMarkup(keyboard)
-		)
+			sendMessage(chat_id, "Press",
+				reply_markup = InlineKeyboardMarkup(keyboard)
+			)
 
 	elif text == "/info":
 		sendMessage(
