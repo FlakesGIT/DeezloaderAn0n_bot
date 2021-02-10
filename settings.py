@@ -2,7 +2,7 @@
 
 from telegram import InlineKeyboardButton
 
-not_interface = True
+not_interface = False
 default_time = 0.0
 channel = -1001215335384
 roots = [1314948019]
