@@ -1432,7 +1432,7 @@ def menu(update, context):
 
 	if text == "/start":
 		sendPhoto(
-			chat_id, open(photo, "https://i.pinimg.com/originals/e3/39/35/e339352ea8faf949945369a35493a413.png"),
+			chat_id, open(photo, "rb"),
 			start_message
 		)
 
@@ -1455,7 +1455,7 @@ def menu(update, context):
 				InlineKeyboardButton(
 						queries['s_lbl']['text'],
 						switch_inline_query_current_chat = queries['s_lbl']['query'] % ""
-					)
+				)
 			],
 			[
 				InlineKeyboardButton(
@@ -1544,7 +1544,7 @@ def menu(update, context):
 					InlineKeyboardButton(
 							queries['s_lbl']['text'],
 							switch_inline_query_current_chat = queries['s_lbl']['query'] % text
-						)
+					)
 				],
 				[
 					InlineKeyboardButton(
