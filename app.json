@@ -1,17 +1,17 @@
 {
-  "name": "Pastebin Bot",
-  "description": "A simple but advaced pastebin telegram bot made by Bots.DC",
-  "logo": "https://upload.wikimedia.org/wikipedia/en/3/35/Pastebin.com_logo.png",
+  "name": "Deezer Music Bot",
+  "description": "A Deezer/Spotify Music Downloader With Album Support",
+  "logo": "https://telegra.ph/file/89236202ba9979b4df925.jpg",
   "keywords": [
     "telegram",
-    "pastebin",
+    "Deezer",
+    "Spotify",
     "bot",
-    "dc",
-    "dcdunkan"
+    "Download"
   ],
-  "success_url": "https://telegram.me/pstbinbot",
-  "website": "https://t.me/dcbotz",
-  "repository": "https://github.com/dcdunkan/pastebin-bot",
+  "success_url": "https://telegram.me/Hehehe",
+  "website": "https://t.me/hehehe",
+  "repository": "https://github.com/dcdunkan/hehehe",
   "env": {
     "BOT_TOKEN": {
       "description": "Your bot token, as a string. Get it from https://telegram.me/botfather",
